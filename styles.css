@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.image-item {
+  margin: 20px;
+}
+
+img {
+  border-radius: 10px;
+  filter: grayscale(50%);
+}
+
+img:hover {
+  filter: none;
+}
